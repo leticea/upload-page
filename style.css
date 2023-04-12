@@ -14,15 +14,19 @@ body {
 
 #app {
   min-height: 100vh;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  max-width: 440px;
+  width: 90%;
+  margin: auto;
 }
 
 .drag-files {
   background: #f3f0ff;
   border: 1px solid dashed #c1b2fa;
   border-radius: 8px;
-  width: 440px;
 
   text-align: center;
   padding: 28px 0 32px;
@@ -55,4 +59,11 @@ body {
 
 .drag-files.dragover {
   background: #ebe6ff;
+}
+
+.box {
+  padding: 8px;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px #eae2fd;
+  border-radius: 8px;
 }
