@@ -162,3 +162,17 @@ progress::-webkit-progress-value {
   );
   --progress-text: #9892a6;
 }
+
+.done {
+  --icon-bg: #daf2d9;
+  --icon-color: #73b172;
+  --progress-color: #73b172;
+  --progress-text: #4e884d;
+}
+
+.error {
+  --icon-bg: #f2d9d9;
+  --icon-color: #e36363;
+  --progress-color: white;
+  --progress-text: #e36363;
+}
