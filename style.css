@@ -80,7 +80,6 @@ body {
   --icon-color: #aaa;
   --progress-color: #000;
   --progress-text: #999;
-
 }
 
 .box .icon {
@@ -151,4 +150,15 @@ progress::-webkit-progress-value {
   right: 8px;
   color: #794fed;
   cursor: pointer;
+}
+
+.uploading {
+  --icon-bg: #e9e3f8;
+  --icon-color: #ac96e4;
+  --progress-color: linear-gradient(
+    90deg,
+    rgba(58, 97, 237, 0.52) 0%,
+    #7c3aed 100%
+  );
+  --progress-text: #9892a6;
 }
