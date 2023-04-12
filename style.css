@@ -72,4 +72,26 @@ body {
   background: #ffffff;
   box-shadow: 0px 4px 16px #eae2fd;
   border-radius: 8px;
+  display: flex;
+  gap: 12px;
+
+  --icon-bg: #eee;
+  --icon-color: #aaa;
+  --progress-color: #000;
+  --progress-text: #999;
+}
+
+.box .icon {
+  background: var(--icon-bg);
+  border-radius: 4px;
+  padding: 16px 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .icon i {
+  font-size: 24px;
+  color: var(--icon-color);
 }
