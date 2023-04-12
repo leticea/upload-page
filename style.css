@@ -1,4 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #fbfaff;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  line-height: 130%;
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.drag-files {
+  background: #f3f0ff;
+  border: 1px solid dashed #c1b2fa;
+  border-radius: 8px;
+  width: 440px;
+
+  text-align: center;
+  padding: 28px 0 32px;
 }
