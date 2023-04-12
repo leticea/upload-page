@@ -11,11 +11,7 @@
   <img alt="" src=".github/image.png">
 </p>
 
-<p align="center">
-  <img alt="" src=".github/image2.png">
-</p>
-
-## Login Screen
+## Upload Component
 
 ## 🚀 Tecnologias
 
@@ -92,6 +88,12 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
       <td>Weather Page</td>
       <td>15/03/23</td>
       <td><a href="https://github.com/leticea/weather-page">🔗</a></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Login Screen</td>
+      <td>22/03/23</td>
+      <td><a href="https://github.com/leticea/login-screen">🔗</a></td>
     </tr>
     <tr>
       <td>12</td>
